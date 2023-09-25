@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import CoffeeMenu from "../components/CoffeeMenu";
 
 export async function getServerSideProps() {

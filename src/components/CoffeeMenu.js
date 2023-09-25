@@ -6,7 +6,7 @@ function CoffeeMenu({ coffees }) {
 
   return (
     <div className="flex">
-      <ul className="w-1/3">
+      <ul className="w-1/3 m-5">
         {coffees.map((coffee, index) => (
           <li
             className="cursor-pointer text-aliceblue text-xl mb-2"
@@ -18,7 +18,7 @@ function CoffeeMenu({ coffees }) {
         ))}
       </ul>
 
-      <div className="w-2/3">
+      <div className="w-[55%] fixed top-5 right-5">
         {selectedCoffee && <CoffeeCard coffee={selectedCoffee} />}
       </div>
     </div>
